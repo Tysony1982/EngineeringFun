@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpProgram", "CSharpProgram\CSharpProgram.csproj", "{DC7895C8-BA70-48F8-9B66-F26DF2821660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAlgos", "CSharpAlgos\CSharpAlgos.csproj", "{26E07823-152D-4044-9110-F2A721A3C698}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7895C8-BA70-48F8-9B66-F26DF2821660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7895C8-BA70-48F8-9B66-F26DF2821660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7895C8-BA70-48F8-9B66-F26DF2821660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7895C8-BA70-48F8-9B66-F26DF2821660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E07823-152D-4044-9110-F2A721A3C698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E07823-152D-4044-9110-F2A721A3C698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E07823-152D-4044-9110-F2A721A3C698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E07823-152D-4044-9110-F2A721A3C698}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BCA60A2-10CA-475C-B98E-EBAE8858B2EE}
+	EndGlobalSection
+EndGlobal
