@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAlgos.Sorting
+namespace CSharpDataStructures.Functional
 {
-    public static class MergeSort
+    public class Option<T> 
     {
-        //public static 
+
     }
 }

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpProgram", "CSharpProgram\CSharpProgram.csproj", "{DC7895C8-BA70-48F8-9B66-F26DF2821660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAlgos", "CSharpAlgos\CSharpAlgos.csproj", "{26E07823-152D-4044-9110-F2A721A3C698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAlgos", "CSharpAlgos\CSharpAlgos.csproj", "{26E07823-152D-4044-9110-F2A721A3C698}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpDataStructures", "CSharpDataStructures\CSharpDataStructures.csproj", "{8DB1A6FD-BF79-4D7B-BB94-BC201CE79D5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{119B5A2F-5808-411B-AFB4-DD6761C8ADDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{26E07823-152D-4044-9110-F2A721A3C698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26E07823-152D-4044-9110-F2A721A3C698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26E07823-152D-4044-9110-F2A721A3C698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB1A6FD-BF79-4D7B-BB94-BC201CE79D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB1A6FD-BF79-4D7B-BB94-BC201CE79D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB1A6FD-BF79-4D7B-BB94-BC201CE79D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB1A6FD-BF79-4D7B-BB94-BC201CE79D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119B5A2F-5808-411B-AFB4-DD6761C8ADDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119B5A2F-5808-411B-AFB4-DD6761C8ADDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119B5A2F-5808-411B-AFB4-DD6761C8ADDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119B5A2F-5808-411B-AFB4-DD6761C8ADDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
