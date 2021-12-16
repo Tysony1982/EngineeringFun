@@ -82,5 +82,26 @@ namespace UnitTests.DataStructures
             }
 
         }
+
+        [Test]
+        public void MultiplePopsWithIsEmptyCheckAtEndTest()
+        {
+            var stack = new MyStack<int>(3);
+            var ex1 = 1;
+            var ex2 = 2;
+            var ex3 = 3;
+            var ex4 = true;
+            stack.Push(ex1);
+            stack.Push(ex2);
+            stack.Push(ex3);
+            var sut3 = stack.Pop();
+            var sut2 = stack.Pop();
+            var sut1 = stack.Pop();
+            var sut4 = stack.IsEmpty();
+            Assert.AreEqual(ex1, sut1);
+            Assert.AreEqual(ex2, sut2);
+            Assert.AreEqual(ex3, sut3);
+            Assert.AreEqual(ex4, sut4);
+        }
     }
 }
